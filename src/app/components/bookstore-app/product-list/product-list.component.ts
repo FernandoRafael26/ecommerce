@@ -22,7 +22,7 @@ export class ProductListComponent implements OnInit {
     this.livros = this.bookService.getBook().subscribe((data => {
 
       this.livros = data;
-      console.log(this.livros);
+      //console.log(this.livros);
 
     }))
   }
